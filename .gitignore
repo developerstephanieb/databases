@@ -1,0 +1,11 @@
+.DS_Store
+.vscode
+.history
+venv/
+.venv/
+env/
+.env/
+example/
+__pycache__/
+*.py[cod]
+*$py.class

@@ -6,7 +6,7 @@ This guide covers the fundamental statements for retrieving data from a database
 
 ## The `SELECT` and `FROM` Statements
 
-[description/intro]
+The most basic query consists of two parts: the `SELECT` statement, which specifies the columns to retrieve, and the `FROM` clause, which identifies the table containing those columns.
 
 - **Query**: A request for data from a database.
 

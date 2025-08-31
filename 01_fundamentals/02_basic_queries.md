@@ -31,7 +31,15 @@ SELECT customerName, city FROM customers;
 
 ## Limiting Results
 
+The `LIMIT` clause restricts the number of rows returned by a query. This is useful for previewing a large table without retrieving the entire dataset, which improves performance and readability.
+
+- `LIMIT`: A clause that takes an integer to specify the maximum number of rows to return. It is placed at the end of the query.
+
 ```sql
+-- Retrieve the first 5 records from the 'products' table
+SELECT productName, productLine, buyPrice
+FROM products
+LIMIT 5;
 ```
 
 ---

@@ -7,14 +7,15 @@
 ```
 sql_reference/
 ├── 01_fundamentals/
-│   ├── 01_basic_queries.md
-│   ├── 02_filtering_and_sorting.md
-│   ├── 03_joins.md
-│   ├── 04_aggregations.md
-│   ├── 05_data_manipulation.md
-│   ├── 06_data_definition.md
-│   ├── 07_subqueries.md
-│   └── 08_advanced_queries.md
+│   ├── 01_syntax.md
+│   ├── 02_basic_queries.md
+│   ├── 03_filtering_and_sorting.md
+│   ├── 04_joins.md
+│   ├── 05_aggregations.md
+│   ├── 06_data_manipulation.md
+│   ├── 07_data_definition.md
+│   ├── 08_subqueries.md
+│   └── 09_advanced_queries.md
 ├── 02_functions/
 │   ├── 01_string_functions.md
 │   ├── 02_numeric_functions.md

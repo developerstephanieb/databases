@@ -46,5 +46,15 @@ LIMIT 5;
 
 ## Column Aliases
 
+An alias provides a temporary, custom name for a column in the query's result set. Aliases do not change the column's permanent name in the table; they only affect the display in the current query's output, which is useful for improving readability.
+
+- `AS`: The keyword used to assign an alias to a column. If the alias contains spaces or special characters, it must be enclosed in double quotes (`"`).
+
 ```sql
+-- Select the customerName column and display it as "Client Name"
+-- Select the country column and display it as "Location"
+SELECT
+  customerName AS "Client Name",
+  country AS Location
+FROM customers;
 ```

@@ -1,4 +1,4 @@
-# Databases Reference
+# Databases
 
 --
 
